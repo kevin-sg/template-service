@@ -13,7 +13,7 @@ export const CardGallery = ({ title, paragraph, img, isReverse = false }: CardGa
 	return (
 		<div className={'gallery-card '.concat(isReverse ? 'row-reverse' : '')}>
 			<div className='gallery-details'>
-				<div>
+				<div className='texts'>
 					<h2 className='font-600 text-xl text-left font-montserrat'>{title}</h2>
 					<p className='font-400 text-base text-left font-plus-jakarta-sans'>{paragraph}</p>
 				</div>
