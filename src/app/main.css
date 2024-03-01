@@ -1,0 +1,155 @@
+:root {
+	--white: #ffffff;
+	--yellow: #fec670;
+	--blue: #00225d;
+	--black: #0a0a0a;
+}
+
+/* Global */
+li,
+a {
+	text-decoration: none;
+	list-style: none;
+	color: inherit;
+}
+button {
+	outline: none;
+}
+
+h1,
+h2,
+li {
+	font-family: var(--font-montserrat);
+}
+p {
+	font-family: var(--font-plus-jakarta-sans);
+}
+
+.container {
+	max-width: 90%;
+	width: 138.8rem;
+	margin: 0 auto !important;
+}
+
+.w-full {
+	width: 100%;
+}
+
+.bg-white {
+	background-color: var(--white);
+}
+.bg-yellow {
+	background-color: var(--yellow);
+}
+.bg-blue {
+	background-color: var(--blue);
+}
+.bg-back {
+	background-color: var(--blue);
+}
+
+.text-sm {
+	font-size: 1.5rem;
+}
+.text-base {
+	font-size: 1.8rem;
+}
+.text-md {
+	font-size: 2rem;
+}
+.text-lg {
+	font-size: 4rem;
+}
+.text-xl {
+	font-size: 5rem;
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.heading_4 {
+	font-size: 3rem;
+}
+.text-white {
+	color: var(--white);
+}
+.text-yellow {
+	color: var(--yellow);
+}
+.text-blue {
+	color: var(--blue);
+}
+.text-black {
+	color: var(--black);
+}
+.font-montserrat {
+	font-family: var(--font-montserrat);
+}
+.font-plus-jakarta-sans {
+	font-family: var(--font-plus-jakarta-sans);
+}
+.font-poppins {
+	font-family: var(--font-poppins);
+}
+.font-400 {
+	font-weight: 400;
+}
+.font-500 {
+	font-weight: 500;
+}
+.font-600 {
+	font-weight: 600;
+}
+
+.link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.6rem;
+	transition: opacity 0.2s;
+}
+.link:hover {
+	opacity: 0.8;
+}
+
+.subtitle,
+.title {
+	font-size: 6.2rem;
+	font-weight: 500;
+	text-align: center;
+}
+.subtitle {
+	font-size: 5rem;
+}
+
+.paragraph-sm {
+	font-size: 1.8rem;
+	line-height: 155%;
+}
+.paragraph {
+	font-size: 2rem;
+	line-height: 155%;
+}
+
+.btn {
+	display: block;
+	width: 206px;
+	height: 60px;
+	font-family: var(--font-montserrat);
+	font-size: 1.8rem;
+	font-weight: 500;
+	line-height: 22.08px;
+	letter-spacing: 0.08em;
+	border: none;
+	cursor: pointer;
+	transition: opacity 0.2s;
+}
+.btn:hover {
+	opacity: 0.9;
+}
+
+.row-reverse {
+	flex-direction: row-reverse;
+}

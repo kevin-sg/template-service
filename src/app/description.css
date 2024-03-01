@@ -1,0 +1,25 @@
+.box-testimonial {
+  padding: 13rem 0 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.box-testimonial .testimonial {
+  max-width: 72rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.box-testimonial .testimonial .person {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.box-testimonial .testimonial p {
+  line-height: 170%;
+}

@@ -1,0 +1,40 @@
+.section-gallery {
+	padding: 12rem 0 !important;
+	display: flex;
+	flex-direction: column;
+	gap: 16.5rem;
+}
+
+.box-gallery-card {
+	display: flex;
+	flex-direction: column;
+	gap: 19rem;
+}
+.gallery-description {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 3rem;
+}
+
+.gallery-card {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 5rem;
+	height: 55rem;
+}
+.gallery-card .gallery-details {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	gap: 4rem;
+	height: 100%;
+}
+.gallery-card .gallery-details p {
+	max-width: 63rem;
+	width: 100%;
+	line-height: 155%;
+	white-space: pre-line;
+}
